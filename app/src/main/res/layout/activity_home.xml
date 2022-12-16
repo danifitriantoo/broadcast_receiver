@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/uni_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.activities.HomeActivity">
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_etNama"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnActiviy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/uni_margin"
+        android:padding="@dimen/uni_margin"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:text="Change Activty"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/uni_margin"
+        android:padding="@dimen/uni_margin"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:text="Change Fragment"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/uni_margin"
+        android:padding="@dimen/uni_margin"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:text="Timer"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
